@@ -65,7 +65,7 @@ class CalendarHeader extends Component {
   }
 
   render() {
-    const headerText = this.props.calendarHeaderPrexix + this.formatCalendarHeader(
+    const headerText = this.props.calendarHeaderPrefix + this.formatCalendarHeader(
       this.props.datesForWeek,
       this.props.calendarHeaderFormat
     );
