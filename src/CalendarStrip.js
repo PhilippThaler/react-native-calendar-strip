@@ -60,6 +60,7 @@ class CalendarStrip extends Component {
     calendarHeaderStyle: PropTypes.any,
     calendarHeaderFormat: PropTypes.string,
     calendarHeaderPrefix: PropTypes.string,
+    calendarHeaderSuffix: PropTypes.string,
     calendarHeaderPosition: PropTypes.oneOf(['above', 'below']),
 
     calendarAnimation: PropTypes.object,
@@ -92,7 +93,8 @@ class CalendarStrip extends Component {
     iconRight: require("./img/right-arrow-black.png"),
     calendarHeaderFormat: "MMMM YYYY",
     calendarHeaderPosition: 'above',
-    calendarHeaderPrefix: '',
+    calendarHeaderPrefix: ' ',
+    calendarHeaderSuffix: ' ',
     datesWhitelist: undefined,
     datesBlacklist: undefined,
     disabledDateOpacity: 0.3,
