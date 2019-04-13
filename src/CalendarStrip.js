@@ -597,6 +597,7 @@ class CalendarStrip extends Component {
         calendarHeaderFormat={this.props.calendarHeaderFormat}
         calendarHeaderContainerStyle={this.props.calendarHeaderContainerStyle}
         calendarHeaderPrefix={this.props.calendarHeaderPrefix}
+        calendarHeaderSuffix={this.props.calendarHeaderSuffix}
         calendarHeaderStyle={this.props.calendarHeaderStyle}
         datesForWeek={this.state.datesForWeek}
         fontSize={this.state.monthFontSize}
