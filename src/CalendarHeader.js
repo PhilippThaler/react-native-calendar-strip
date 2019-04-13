@@ -15,6 +15,7 @@ class CalendarHeader extends Component {
       PropTypes.object,
       PropTypes.number
     ]),
+    calendarHeaderPrefix: PropTypes.string,
     datesForWeek: PropTypes.array.isRequired,
     allowHeaderTextScaling: PropTypes.bool
   };
@@ -64,7 +65,7 @@ class CalendarHeader extends Component {
   }
 
   render() {
-    const headerText = this.formatCalendarHeader(
+    const headerText = this.props.calendarHeaderPrexix + this.formatCalendarHeader(
       this.props.datesForWeek,
       this.props.calendarHeaderFormat
     );
